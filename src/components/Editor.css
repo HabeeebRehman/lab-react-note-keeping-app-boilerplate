@@ -1,0 +1,45 @@
+*{
+    background-color:rgb(56,103,214);
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.input{
+    margin-top: 12px;
+    width: 45%;
+    padding: 25px;
+}
+
+.output{
+    width: 45%;
+    padding: 20px;
+}
+
+.input-text{
+    border: 3px solid rgb(70, 70, 70);
+    background-color: transparent;
+    border-radius: 5px;
+    width: 450px;
+    height: 350px;
+    color: white;
+    margin-top: 12px;
+    padding: 15px;
+    
+}
+
+.output-text{
+    background-color: rgb(70, 70, 70);
+    padding: 15px;
+    color: white;
+    margin-top: 12px;
+    width: 95%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 15px 15px;
+    text-align: left;
+}
